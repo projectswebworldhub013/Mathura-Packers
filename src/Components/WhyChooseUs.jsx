@@ -1,13 +1,13 @@
 // src/components/WhyChooseUs.jsx
 import React from "react";
-import why1 from "../assets/images/hero/h1.jpg";
-import why2 from "../assets/images/hero/h2.jpg";
-import bgImg from "../assets/images/bg.jpg"; // Background image
+import why1 from "../assets/images/h122.png";
+import why2 from "../assets/images/whoweare.jpg";
+import bgImg from "../assets/images/bg2.jpg"; // Background image
 
 export default function WhyChooseUs() {
   return (
     <section
-      className="w-full py-12 px-6 md:px-16 relative text-[#111111]"
+      className="w-full py-18 px-6 md:px-16 relative text-[#111111]"
       style={{
         backgroundImage: `url(${bgImg})`,
         backgroundSize: "cover",
@@ -16,12 +16,12 @@ export default function WhyChooseUs() {
       }}
     >
       {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-[#FFFFFFCC]"></div>
+      <div className="absolute inset-0 bg-[#ffffff91]"></div>
 
       {/* Content Wrapper */}
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Title */}
-        <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide mb-12 text-[#0F0F0F]">
+        <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-semibold tracking-wide mb-12 text-[#0F0F0F]">
           WHY CHOOSE{" "}
           <span className="text-[#E10600] drop-shadow-lg">MATHURA PACKER & MOVER</span>?
         </h2>
