@@ -1,0 +1,12 @@
+| Purpose / Usage               | Color Name     | HEX Code  | Notes                                          |
+| ----------------------------- | -------------- | --------- | ---------------------------------------------- |
+| **Primary Brand Color**       | Logistics Red  | `#E10600` | CTA buttons, highlights, icons, important text |
+| **Secondary Brand Color**     | Deep Black     | `#0F0F0F` | Headings, navbar, footer background            |
+| **Accent Color**              | Charcoal Gray  | `#2A2A2A` | Cards, borders, section dividers               |
+| **Background (Light)**        | Pure White     | `#FFFFFF` | Main background for clarity & readability      |
+| **Background (Soft Section)** | Light Gray     | `#F4F4F4` | Alternate sections, service blocks             |
+| **Text – Primary**            | Jet Black      | `#111111` | Main content text                              |
+| **Text – Secondary**          | Medium Gray    | `#5F5F5F` | Descriptions, subtitles                        |
+| **CTA Hover Color**           | Dark Red       | `#B30400` | Button hover effect                            |
+| **Success / Trust Accent**    | Emerald Green  | `#1FAA59` | Check icons, success messages                  |
+| **Border / Divider**          | Soft Gray Line | `#E0E0E0` | Card outlines, separators                      |

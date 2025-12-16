@@ -3,7 +3,7 @@ import Home from "./Pages/Home"
 import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
 import ScrollToTop from './Components/ScrollToTop'
-import ScrollToTop from './Components/FloatingButtons'
+import FloatingButtons from './Components/FloatingButtons'
 function App() {
 
   return (
