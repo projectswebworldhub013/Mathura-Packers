@@ -26,6 +26,7 @@ import {
   FaPeopleGroup,
   FaPhoneFlip,
   FaXmark,
+  FaChevronUp,
 } from "react-icons/fa6";
 
 import logo from "../assets/images/logo-mathura.png";
@@ -39,7 +40,7 @@ export default function Navbar() {
     { name: "Home", path: "/", icon: <FaHouse /> },
     { name: "About Us", path: "/about", icon: <FaCircleInfo /> },
     { name: "Services", path: "/services", icon: <FaServicestack /> },
-    { name: "Locations", path: "/locations", icon: <FaMapLocationDot /> },
+    { name: "Certificates", path: "/certificates", icon: <FaMapLocationDot /> },
     { name: "Gallery", path: "/gallery", icon: <FaImages /> },
     { name: "Contact", path: "/contact", icon: <FaPhoneFlip /> },
   ];

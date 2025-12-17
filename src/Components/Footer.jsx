@@ -115,7 +115,6 @@ export default function Footer() {
               ["Home", "/"],
               ["About Us", "/about"],
               ["Gallery", "/gallery"],
-              ["Branches", "/locations"],
               ["Contact Us", "/contact"],
               ["Certificates", "/certificates"],
             ].map(([text, link], i) => (

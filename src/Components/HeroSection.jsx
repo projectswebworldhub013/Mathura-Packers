@@ -101,10 +101,10 @@ export default function HeroSection() {
             Get Free Quote
           </Link>
           <Link
-            to="/services"
+            to="/about"
             className="px-8 py-3 border border-white text-white rounded-full hover:bg-white hover:text-black transition-colors duration-300"
           >
-            View Services
+            Learn More
           </Link>
         </div>
       </motion.div>

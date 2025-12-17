@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import ContactHero from "../Components/ContactHero";
 import MapSection from "../Components/MapSection";
-import contactBg from "../assets/images/contact-hero.jpg";
+import contactBg from "../assets/images/certi.avif";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
@@ -17,7 +17,7 @@ const Contact = () => {
           initial={{ opacity: 0, x: -60 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
-          className="relative w-full lg:w-1/2 h-[520px] lg:h-auto text-white p-6 sm:p-8 md:p-10 lg:p-12 flex items-center justify-center overflow-hidden rounded-br-[40px] lg:rounded-br-[60px]"
+          className="relative w-full lg:w-1/2 h-[600px] md:h-[520px] lg:h-auto text-white p-6 sm:p-8 md:p-10 lg:p-12 flex items-center justify-center overflow-hidden rounded-br-[40px] lg:rounded-br-[60px]"
           style={{
             backgroundImage: `url(${contactBg})`,
             backgroundSize: "cover",
