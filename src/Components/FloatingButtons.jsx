@@ -16,6 +16,7 @@ const FloatingButtons = () => {
       <AnimatePresence>
         {isOpen && (
           <>
+            {/* 📞 Call Button */}
             <motion.a
               key="call"
               href="tel:+918445421299"
@@ -24,10 +25,13 @@ const FloatingButtons = () => {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 20, scale: 0 }}
               transition={{ duration: 0.3 }}
-              className="w-14 h-14 flex items-center justify-center rounded-full
-                bg-gradient-to-br from-[#0081eb] to-[#4f23ff] text-white
-                shadow-2xl ring-2 ring-white/30 transition-transform duration-300
-                hover:scale-110 hover:rotate-6"
+              className="
+                w-14 h-14 flex items-center justify-center rounded-full
+                bg-[#E10600] hover:bg-[#B30400] text-white
+                shadow-2xl ring-2 ring-black/90
+                transition-transform duration-300
+                hover:scale-110 hover:rotate-6
+              "
             >
               <FaPhoneAlt size={22} />
             </motion.a>
@@ -43,10 +47,13 @@ const FloatingButtons = () => {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 20, scale: 0 }}
               transition={{ duration: 0.3, delay: 0.1 }}
-              className="w-14 h-14 flex items-center justify-center rounded-full
-                bg-gradient-to-br from-[#0a9c4c] to-[#17a34c] text-white
-                shadow-2xl ring-2 ring-white/30 transition-transform duration-300
-                hover:scale-110 hover:-rotate-6"
+              className="
+                w-14 h-14 flex items-center justify-center rounded-full
+                bg-[#1FAA59] hover:brightness-110 text-white
+                shadow-2xl ring-2 ring-black/90
+                transition-transform duration-300
+                hover:scale-110 hover:-rotate-6
+              "
             >
               <FaWhatsapp size={26} />
             </motion.a>
@@ -54,16 +61,19 @@ const FloatingButtons = () => {
             {/* 📧 Email Button */}
             <motion.a
               key="email"
-              href="mailto:info@instantpackers.in"
+              href="mailto:info@mathurapackerandmover.com"
               title="Send Email"
               initial={{ opacity: 0, y: 20, scale: 0 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 20, scale: 0 }}
               transition={{ duration: 0.3, delay: 0.2 }}
-              className="w-14 h-14 flex items-center justify-center rounded-full
-                bg-gradient-to-br from-[#f40000] to-[#ff4b03] text-white
-                shadow-2xl ring-2 ring-white/30 transition-transform duration-300
-                hover:scale-110 hover:rotate-6"
+              className="
+                w-14 h-14 flex items-center justify-center rounded-full
+                bg-[#2A2A2A] hover:bg-[#0F0F0F] text-white
+                shadow-2xl ring-2 ring-black/90
+                transition-transform duration-300
+                hover:scale-110 hover:rotate-6
+              "
             >
               <FaMailBulk size={22} />
             </motion.a>
@@ -74,17 +84,22 @@ const FloatingButtons = () => {
       {/* ✉️ Main Toggle Button with Ripple Rings */}
       <div className="relative">
         {/* Ripple Animations */}
-        <span className="absolute inset-0 rounded-full bg-[#F4AE00]/30 animate-ping-slow"></span>
-        <span className="absolute inset-0 rounded-full bg-[#2E235A]/30 animate-ping-slower"></span>
+        <span className="absolute inset-0 rounded-full bg-[#E10600]/30 animate-ping-slow"></span>
+        <span className="absolute inset-0 rounded-full bg-[#2A2A2A]/30 animate-ping-slower"></span>
         <span className="absolute inset-0 rounded-full bg-black/20 animate-ping-slowest"></span>
 
         <motion.button
           onClick={toggleButtons}
           whileTap={{ scale: 0.9 }}
-          className="cursor-pointer relative w-14 h-14 md:w-16 md:h-16 rounded-full 
-            bg-gradient-to-br from-[#F4AE00] to-[#2E235A] 
+          className="
+            cursor-pointer relative
+            w-14 h-14 md:w-16 md:h-16
+            rounded-full
+            bg-[#E10600] hover:bg-[#B30400]
             flex items-center justify-center
-            shadow-2xl overflow-hidden hover:scale-105 transition-all duration-300"
+            shadow-2xl overflow-hidden
+            transition-all duration-300
+          "
         >
           {isOpen ? (
             <FaTimes className="text-white text-2xl" />
@@ -97,7 +112,7 @@ const FloatingButtons = () => {
       {/* Custom Ripple Animations */}
       <style>{`
         @keyframes pingSlow {
-          0% { transform: scale(1); opacity: 0.7; }
+          0% { transform: scale(1); opacity: 0.6; }
           80% { transform: scale(2); opacity: 0; }
           100% { opacity: 0; }
         }
