@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 
-import hero1 from "../assets/images/hero/h1.jpg";
+import hero1 from "../assets/images/hero1.jpg";
 import hero2 from "../assets/images/hero/h2.jpg";
-import hero3 from "../assets/images/hero/h4.jpg"; // add your 3rd image here
+import hero3 from "../assets/images/hero/h1.jpg"; // add your 3rd image here
 
 export default function HeroSection() {
   const images = [hero1, hero2, hero3];

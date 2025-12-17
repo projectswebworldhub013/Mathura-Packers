@@ -128,7 +128,7 @@ export default function Navbar() {
                       {link.icon} {link.name}
                       <FaChevronDown className="text-xs" />
                     </button>
-                    <ul className="absolute left-0 mt-3 w-80 bg-white shadow-xl rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
+                    <ul className="absolute left-0 mt-1 w-80 bg-white shadow-xl rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition">
                       {services.map((s, i) => (
                         <li key={i}>
                           <Link
